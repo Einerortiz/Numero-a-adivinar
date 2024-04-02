@@ -3,8 +3,8 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Random random = new Random();
-        int numeroAadivinar = random.nextInt(100);
+
+        int numeroAadivinar = (int) (Math.random()*100);
         int intentosf = 0;
 
         System.out.println("Bienvenido al juego de adivinar el número :D");
